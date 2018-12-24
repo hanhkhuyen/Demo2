@@ -1,0 +1,354 @@
+body{
+    margin: 0 0;
+    font-family: 'Raleway', sans-serif;
+    overflow: hidden;
+}
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.position-fixed{
+    position: fixed;
+}
+.d-flex{
+    display: flex;
+}
+.d-inline-block{
+    display: inline-block;
+}
+.d-block{
+    display: block !important;
+}
+.d-none{
+    display: none;
+}
+.flex-row{
+    flex-direction: row;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.float-right{
+    float: right;
+}
+
+h2{
+    font-size: 25px;
+    margin: 0;
+} 
+h3{
+    font-size: 22px;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* padding + margin */
+.padding-top{
+    padding-top: 20px;
+}
+.padding-bottom{
+    padding-bottom: 20px;
+}
+.padding-left-right{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.padding-0{
+    padding: 0;
+}
+.margin-0{
+    margin: 0;
+}
+.mr-2{
+    margin-right: 10px;
+}
+.mb-2{
+    margin-bottom: 10px;
+}
+
+/* width */
+.width-20{
+    width: 20%;
+}
+.width-80{
+    width: 80%;
+}
+
+
+/* button */
+button{
+    background: transparent;
+    border: 0;
+    outline-style: none;
+    padding: 5px 10px;
+}
+
+
+/* HEADER */
+.header{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    top: 0;
+}
+.header .logo img{
+    height: 100px;
+    width: 150px;
+    margin-top: -20px;
+}
+.icon-header {
+    padding: 8px 15px 5px 0;
+    vertical-align: middle;
+}
+.icon-header a:hover{
+    color: black;
+    background: transparent !important;
+}
+.avatar img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    /* margin: 7px 0; */
+}
+.user{
+    padding: 8px 0;
+    margin-right: 20px;
+}
+.fa-angle-down{
+    color: white;
+}
+/* End HEADER */
+
+
+
+/* PROJECT */
+#project{
+    margin-top: 60px;
+    height: calc(100vh - 60px);
+    background: #f8fff8;
+}
+.title-sidebar{
+    width: 100%;
+}
+.title-sidebar:hover,
+.title-sidebar:focus,
+.title-sidebar:active{
+    background: rgba(111, 146, 181, 0.12);
+    border-radius: 4px;
+}
+#btn-add-project{
+    padding: 5px 10px;
+    color: seagreen;
+}
+#project li{
+    margin: 15px 5px 15px 0;
+    padding: 10px;
+    font-weight: bold;
+}
+.list-project{
+    margin-right: -20px;
+}
+.project{
+    padding: 0;
+    margin-bottom: 0;
+}
+.scrollbar{
+    float: left;
+    height: calc(100vh - 60px - 95px);
+    width: 100%;
+    overflow-y: auto;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.project-item:hover a{
+    color:black;
+}
+.project-item:hover{
+    background: rgba(111, 146, 181, 0.12);
+    border-radius: 3px;
+    opacity: .8;
+    transition: .3s linear;
+}
+
+#project #add-project{
+    margin: 20px 0 0;
+    height: 60px;
+    padding: 15px 10px 30px 20px;
+    background: white;
+}
+#project #add-project input{
+    width: 75%;
+    margin-left: 0;
+}
+#project #add-project .create-button{
+    margin-top: 10px;
+    top: unset;
+    bottom: 10px;
+}
+/* End PROJECT */
+
+
+
+/* MAIN CONTENT */
+#main-content{
+    margin-top: 60px;
+    height: calc(100vh - 60px);
+}
+.header-content{
+    height: 43px;
+    border-bottom: 1px solid seagreen;
+    margin: 0 20px;
+    padding: 15px 0;
+}
+#create{
+    color: white;
+    background-color: seagreen;
+    border: 1px solid seagreen;
+    margin-right: 20px;
+    padding: 8px 10px;
+    border-radius: 4px;
+    font-size: 22px;
+}
+#create:hover{
+    color: seagreen;
+    background-color: white;
+}
+.list-members{
+    margin: 10px 0;
+}
+.member{
+    padding: 15px;
+    margin: 5px 20px;
+}
+.member:hover, .member:focus, .member:active{
+    box-shadow: 5px 5px 14px rgba(0, 0, 0, .2);
+    background: #f8fff8;
+    outline-style: none;
+    border-radius: 3px;
+}
+.trash button:hover,
+.trash button:active,
+.trash button:focus{
+    background: rgba(111, 146, 181, 0.2);
+}
+
+/* overlay */
+.overlay {
+    float: right;
+    margin-top: -3px;
+    opacity: 0;
+}
+.member:hover .overlay{
+    opacity: 1;
+}
+.member:hover .date{
+    display: none;
+}
+.trash button{
+    margin-right: 0 !important;
+    border-radius: 2px;
+}
+/* End MAIN CONTENT */
+
+
+/* add member */
+#add-project,
+#add-member{
+    display: none;
+    background: #f8fff8;
+    padding: 30px 10px 30px 20px;
+    margin: 10px 20px 10px 20px;
+    box-shadow: 5px 5px 14px rgba(0, 0, 0, .2);
+}
+#add-project input,
+#add-member input{
+    outline-style: none;
+    padding: 10px 20px;
+    border: 2px solid seagreen;
+    width: 75%;
+}
+
+.btn-save,
+.btn-yes{
+    margin-right: 15px !important;
+    background: seagreen;
+    color: white;
+}
+.btn-cancel,
+.btn-no{
+    margin-right: 0 !important;
+    background: #f2f2f2;
+    color: #959595;
+}
+.btn-save,
+.btn-cancel,
+.btn-yes,
+.btn-no{
+    margin-top: 3px;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+.btn-save:hover, .btn-save:focus, .btn-save:active,
+.btn-yes:hover, .btn-yes:focus, .btn-yes:active{
+    background: #008400;
+}
+.btn-cancel:hover,.btn-cancel:focus, .btn-cancel:active,
+.btn-no:hover, .btn-no:focus, .btn-no:active{
+    background-color:rgba(32,46,67,0.1);
+}
+/* End add member */
+
+
+.create-button{
+    position: absolute;
+    right: 20px;
+    top: 30%;
+}
+
+.member .create-button{
+    top: -9px;
+    right: 0;
+}
+
+/* animation */
+.list-members__height{
+    height: calc(100vh - 60px - 95px - 125px)
+}
+.animation{
+    position: relative;
+    animation-name: move;
+    animation-duration: .5s;
+}
+@keyframes move{
+    0%   {right: -100%;}
+    25%  {right: -75%;}
+    50%  {right: -50%;}
+    75%  {right: -25%;}
+    100% {right: 0%;}
+}
+
+.project-animation{
+    position: relative;
+    animation-name: remove;
+    animation-duration: .3s;
+}
+@keyframes remove{
+    0%   {left: -100%;}
+    25%  {left: -75%;}
+    50%  {left: -50%;}
+    75%  {left: -25%;}
+    100% {left: 0%;}
+}
+/* End animation */

@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Demo 2</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <header class="header position-fixed">
+    <div class="container d-flex flex-row justify-between">
+        <a href="#" class="logo ">
+          <img src="image/3a7806785f8addacdb4995a9b59b20df.png" title="LOGO">
+        </a>
+        
+        <ul class="user margin-0">
+            <li class="avatar icon-header d-inline-block">
+                <img src= 'https://www.elegantthemes.com/preview/Extra/wp-content/uploads/2015/11/flowers.jpg'>
+            </li>
+            <li class="icon-header d-inline-block">
+                <a href="#" title="icon">
+                    <i class="fas fa-angle-down fa-lg"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+      
+  </header>
+
+  <div class="d-flex flex-row ">
+    <section id="project" class="width-20">
+        <div class="container padding-top padding-left-right">
+      
+            <div class="button-add d-inline-block title-sidebar">
+              <button id="btn-add-project" type="button" class="button">
+                <h3 class="d-inline-block mr-2">Add New Project</h3>
+                <i class="fas fa-plus fa-2x d-inline-block"></i>
+              </button>
+            </div>
+          
+          <div id="add-project">
+            <input name="name" type="text" placeholder="Project" class="">
+            <div class="create-button float-right">
+                <button class="btn-save" type="submit">SAVE</button>
+                <button id="cancel-project" class="btn-cancel">CANCEL</button>
+            </div>
+        </div>
+
+          <div class="list-project">
+              <ul class="project scrollbar">
+                <li class="project-item">
+                  <a href="#"># Lorem ipsum dolor sit amet.</a>
+                </li>
+                <li class="project-item">
+                    <a href="#"># Praesent turpis elit.</a>
+                </li>
+                <li class="project-item">
+                    <a href="#"># Duis venenatis quis.</a>
+                </li>
+                <li class="project-item">
+                    <a href="#"># Maecenas pretium quam eu magna egestas.</a>
+                </li>
+                <li class="project-item">
+                    <a href="#"># Cras interdum molestie nulla a finibus.</a>
+                </li>
+                <li class="project-item">
+                    <a href="#"># Maecenas posuere justo.</a>
+                </li>
+                <li class="project-item">
+                    <a href="#"># Mauris elit orci, auctor non leo in.</a>
+                </li>
+                <li class="project-item">
+                    <a href="#"># Mauris elit orci, auctor non leo in.</a>
+                </li>
+                <li class="project-item">
+                    <a href="#"> # Mauris elit orci, auctor non leo in.</a>
+                </li>
+                <li class="project-item">
+                    <a href="#"># Mauris elit orci, auctor non leo in.</a>
+                </li>
+                <li class="project-item">
+                    <a href="#"># Mauris elit orci, auctor non leo in.</a>
+                </li>
+                <li class="project-item">
+                    <a href="#"># Mauris elit orci, auctor non leo in.</a>
+                </li>
+                <li class="project-item">
+                    <a href="#"># Donec commodo nunc turpis.</a>
+                </li>
+              </ul>
+          </div>
+    
+        </div>
+      </section>
+    
+    <section id="main-content" class="width-80">
+        <div class="container header-content padding-top padding-bottom">
+            <button id="create" type="button" class="button float-right">
+                <h3 class="d-inline-block mr-2">Create</h3>
+                <i class="fas fa-plus d-inline-block"></i>
+            </button>
+
+        </div>
+
+        <div id="add-member">
+            <input name="name" type="text" placeholder="Name" class="">
+            <div class="create-button float-right">
+                <button class="btn-save" type="submit">SAVE</button>
+                <button id="cancel-member" class="btn-cancel">CANCEL</button>
+            </div>
+        </div>
+        <div class="container members padding-bottom">
+            <ul class="list-members scrollbar padding-0">
+                <li class="member">
+                    <div class="member-info-1">
+                        <label class="checkbox member-name float-left">
+                            <input type="checkbox" class="mr-2">
+                            <span class="checkmark"></span>
+                            Proin suscipit sollicitudin auctor
+                        </label>
+    
+                        <div class="date float-right">
+                            01 - 01 - 2018, 9:00 am
+                        </div>
+    
+                        <div class="trash overlay delete-1">
+                            <button type="button" class="icon">
+                                <i class="fas fa-trash-alt"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="delete-form-1 d-none">
+                        <p class="d-inline-block margin-0">Do you want to delete it ?</p>
+                        <div class="create-button float-right d-inline-block">
+                            <button class="btn-yes" type="submit">YES</button>
+                            <button class="btn-no member-1">NO</button>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="member">
+                    <div class="member-info-2">
+                        <label class="checkbox member-name float-left">
+                            <input type="checkbox" class="mr-2">
+                            <span class="checkmark"></span>
+                            Proin suscipit sollicitudin auctor
+                        </label>
+    
+                        <div class="date float-right">
+                            01 - 01 - 2018, 9:00 am
+                        </div>
+    
+                        <div class="trash overlay delete-2">
+                            <button type="button" class="icon">
+                                <i class="fas fa-trash-alt"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="delete-form-2 d-none">
+                        <p class="d-inline-block margin-0">Do you want to delete it ?</p>
+                        <div class="create-button float-right d-inline-block">
+                            <button class="btn-yes" type="submit">YES</button>
+                            <button class="btn-no member-2">NO</button>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="member">
+                    <div class="member-info-3">
+                        <label class="checkbox member-name float-left">
+                            <input type="checkbox" class="mr-2">
+                            <span class="checkmark"></span>
+                            Proin suscipit sollicitudin auctor
+                        </label>
+    
+                        <div class="date float-right">
+                            01 - 01 - 2018, 9:00 am
+                        </div>
+    
+                        <div class="trash overlay delete-3">
+                            <button type="button" class="icon">
+                                <i class="fas fa-trash-alt"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="delete-form-3 d-none">
+                        <p class="d-inline-block margin-0">Do you want to delete it ?</p>
+                        <div class="create-button float-right d-inline-block">
+                            <button class="btn-yes" type="submit">YES</button>
+                            <button class="btn-no member-3">NO</button>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="member">
+                    <div class="member-info-4">
+                        <label class="checkbox member-name float-left">
+                            <input type="checkbox" class="mr-2">
+                            <span class="checkmark"></span>
+                            Proin suscipit sollicitudin auctor
+                        </label>
+
+                        <div class="date float-right">
+                            01 - 01 - 2018, 9:00 am
+                        </div>
+
+                        <div class="trash overlay delete-4">
+                            <button type="button" class="icon">
+                                <i class="fas fa-trash-alt"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="delete-form-4 d-none">
+                        <p class="d-inline-block margin-0">Do you want to delete it ?</p>
+                        <div class="create-button float-right d-inline-block">
+                            <button class="btn-yes" type="submit">YES</button>
+                            <button class="btn-no member-4">NO</button>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="member">
+                    <div class="member-info-5">
+                        <label class="checkbox member-name float-left">
+                            <input type="checkbox" class="mr-2">
+                            <span class="checkmark"></span>
+                            Proin suscipit sollicitudin auctor
+                        </label>
+
+                        <div class="date float-right">
+                            01 - 01 - 2018, 9:00 am
+                        </div>
+
+                        <div class="trash overlay delete-5">
+                            <button type="button" class="icon">
+                                <i class="fas fa-trash-alt"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="delete-form-5 d-none">
+                        <p class="d-inline-block margin-0">Do you want to delete it ?</p>
+                        <div class="create-button float-right d-inline-block">
+                            <button class="btn-yes" type="submit">YES</button>
+                            <button class="btn-no member-5">NO</button>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="member">
+                    <div class="member-info-6">
+                        <label class="checkbox member-name float-left">
+                            <input type="checkbox" class="mr-2">
+                            <span class="checkmark"></span>
+                            Proin suscipit sollicitudin auctor
+                        </label>
+
+                        <div class="date float-right">
+                            01 - 01 - 2018, 9:00 am
+                        </div>
+
+                        <div class="trash overlay delete-6">
+                            <button type="button" class="icon">
+                                <i class="fas fa-trash-alt"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="delete-form-6 d-none">
+                        <p class="d-inline-block margin-0">Do you want to delete it ?</p>
+                        <div class="create-button float-right d-inline-block">
+                            <button class="btn-yes member-6" type="submit">YES</button>
+                            <button class="btn-no">NO</button>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="member">
+                    <div class="member-info-7">
+                        <label class="checkbox member-name float-left">
+                            <input type="checkbox" class="mr-2">
+                            <span class="checkmark"></span>
+                            Proin suscipit sollicitudin auctor
+                        </label>
+
+                        <div class="date float-right">
+                            01 - 01 - 2018, 9:00 am
+                        </div>
+
+                        <div class="trash overlay delete-7">
+                            <button type="button" class="icon">
+                                <i class="fas fa-trash-alt"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="delete-form-7 d-none">
+                        <p class="d-inline-block margin-0">Do you want to delete it ?</p>
+                        <div class="create-button float-right d-inline-block">
+                            <button class="btn-yes" type="submit">YES</button>
+                            <button class="btn-no member-7">NO</button>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="member">
+                    <div class="member-info-8">
+                        <label class="checkbox member-name float-left">
+                            <input type="checkbox" class="mr-2">
+                            <span class="checkmark"></span>
+                            Proin suscipit sollicitudin auctor
+                        </label>
+
+                        <div class="date float-right">
+                            01 - 01 - 2018, 9:00 am
+                        </div>
+
+                        <div class="trash overlay delete-8">
+                            <button type="button" class="icon">
+                                <i class="fas fa-trash-alt"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="delete-form-8 d-none">
+                        <p class="d-inline-block margin-0">Do you want to delete it ?</p>
+                        <div class="create-button float-right d-inline-block">
+                            <button class="btn-yes" type="submit">YES</button>
+                            <button class="btn-no member-8">NO</button>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="member">
+                    <div class="member-info-9">
+                        <label class="checkbox member-name float-left">
+                            <input type="checkbox" class="mr-2">
+                            <span class="checkmark"></span>
+                            Proin suscipit sollicitudin auctor
+                        </label>
+
+                        <div class="date float-right">
+                            01 - 01 - 2018, 9:00 am
+                        </div>
+
+                        <div class="trash overlay delete-9">
+                            <button type="button" class="icon">
+                                <i class="fas fa-trash-alt"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="delete-form-9 d-none">
+                        <p class="d-inline-block margin-0">Do you want to delete it ?</p>
+                        <div class="create-button float-right d-inline-block">
+                            <button class="btn-yes" type="submit">YES</button>
+                            <button class="btn-no member-9">NO</button>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="member">
+                    <div class="member-info-10">
+                        <label class="checkbox member-name float-left">
+                            <input type="checkbox" class="mr-2">
+                            <span class="checkmark"></span>
+                            Proin suscipit sollicitudin auctor
+                        </label>
+
+                        <div class="date float-right">
+                            01 - 01 - 2018, 9:00 am
+                        </div>
+
+                        <div class="trash overlay delete-10">
+                            <button type="button" class="icon">
+                                <i class="fas fa-trash-alt"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="delete-form-10 d-none">
+                        <p class="d-inline-block margin-0">Do you want to delete it ?</p>
+                        <div class="create-button float-right d-inline-block">
+                            <button class="btn-yes" type="submit">YES</button>
+                            <button class="btn-no member-10">NO</button>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="member">
+                    <div class="member-info-11">
+                        <label class="checkbox member-name float-left">
+                            <input type="checkbox" class="mr-2">
+                            <span class="checkmark"></span>
+                            Proin suscipit sollicitudin auctor
+                        </label>
+
+                        <div class="date float-right">
+                            01 - 01 - 2018, 9:00 am
+                        </div>
+
+                        <div class="trash overlay delete-11">
+                            <button type="button" class="icon">
+                                <i class="fas fa-trash-alt"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="delete-form-11 d-none">
+                        <p class="d-inline-block margin-0">Do you want to delete it ?</p>
+                        <div class="create-button float-right d-inline-block">
+                            <button class="btn-yes" type="submit">YES</button>
+                            <button class="btn-no member-11">NO</button>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="member">
+                    <div class="member-info-12">
+                        <label class="checkbox member-name float-left">
+                            <input type="checkbox" class="mr-2">
+                            <span class="checkmark"></span>
+                            Proin suscipit sollicitudin auctor
+                        </label>
+
+                        <div class="date float-right">
+                            01 - 01 - 2018, 9:00 am
+                        </div>
+
+                        <div class="trash overlay delete-12">
+                            <button type="button" class="icon">
+                                <i class="fas fa-trash-alt"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="delete-form-12 d-none">
+                        <p class="d-inline-block margin-0">Do you want to delete it ?</p>
+                        <div class="create-button float-right d-inline-block">
+                            <button class="btn-yes" type="submit">YES</button>
+                            <button class="btn-no member-12">NO</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+  </div>
+  
+</body>
+
+<script>
+    $(document).ready(function(){
+        $('#create').click(function(){
+            $('#add-member').addClass("d-block animation");
+            $('.list-members').addClass("list-members__height");
+        });
+
+        $('#cancel-member').click(function(){
+            $('#add-member').removeClass("d-block animation");
+            $('.list-members').removeClass("list-members__height");
+        })
+
+
+        // ADD PROJECT
+        $('#btn-add-project').click(function(){
+            $('#add-project').addClass("d-block project-animation");
+        });
+
+        $('#cancel-project').click(function(){
+            $('#add-project').removeClass("d-block project-animation");
+        })
+
+        // MEMBER
+        $('.delete-1').click(function(){
+            $('.delete-form-1').removeClass("d-none");
+            $('.delete-form-1').addClass("animation");
+            $('.member-info-1').addClass("d-none");
+        });
+
+        $('.member-1').click(function(){
+            $('.delete-form-1').addClass("d-none");
+            $('.delete-form-1').removeClass("animation");
+            $('.member-info-1').removeClass("d-none");
+        }) 
+        // 1
+
+
+        $('.delete-2').click(function(){
+            $('.delete-form-2').removeClass("d-none");
+            $('.delete-form-2').addClass("animation");
+            $('.member-info-2').addClass("d-none");
+        });
+
+        $('.member-2').click(function(){
+            $('.delete-form-2').addClass("d-none");
+            $('.delete-form-2').removeClass("animation");
+            $('.member-info-2').removeClass("d-none");
+        })
+        // 2
+
+
+
+        $('.delete-3').click(function(){
+            $('.delete-form-3').removeClass("d-none");
+            $('.delete-form-3').addClass("animation");
+            $('.member-info-3').addClass("d-none");
+        });
+
+        $('.member-3').click(function(){
+            $('.delete-form-3').addClass("d-none");
+            $('.delete-form-3').removeClass("animation");
+            $('.member-info-3').removeClass("d-none");
+        })
+        // 3
+
+        $('.delete-4').click(function(){
+            $('.delete-form-4').removeClass("d-none");
+            $('.delete-form-4').addClass("animation");
+            $('.member-info-4').addClass("d-none");
+        });
+
+        $('.member-4').click(function(){
+            $('.delete-form-4').addClass("d-none");
+            $('.delete-form-4').removeClass("animation");
+            $('.member-info-4').removeClass("d-none");
+        })
+        // 4
+
+        $('.delete-5').click(function(){
+            $('.delete-form-5').removeClass("d-none");
+            $('.delete-form-5').addClass("animation");
+            $('.member-info-5').addClass("d-none");
+        });
+
+        $('.member-5').click(function(){
+            $('.delete-form-5').addClass("d-none");
+            $('.delete-form-5').removeClass("animation");
+            $('.member-info-5').removeClass("d-none");
+        })
+        // 5
+
+        $('.delete-6').click(function(){
+            $('.delete-form-6').removeClass("d-none");
+            $('.delete-form-6').addClass("animation");
+            $('.member-info-6').addClass("d-none");
+        });
+
+        $('.member-6').click(function(){
+            $('.delete-form-6').addClass("d-none");
+            $('.delete-form-6').removeClass("animation");
+            $('.member-info-6').removeClass("d-none");
+        })
+        // 6
+
+        $('.delete-7').click(function(){
+            $('.delete-form-7').removeClass("d-none");
+            $('.delete-form-7').addClass("animation");
+            $('.member-info-7').addClass("d-none");
+        });
+
+        $('.member-7').click(function(){
+            $('.delete-form-7').addClass("d-none");
+            $('.delete-form-7').removeClass("animation");
+            $('.member-info-7').removeClass("d-none");
+        })
+        // 7
+
+
+        $('.delete-8').click(function(){
+            $('.delete-form-8').removeClass("d-none");
+            $('.delete-form-8').addClass("animation");
+            $('.member-info-8').addClass("d-none");
+        });
+
+        $('.member-8').click(function(){
+            $('.delete-form-8').addClass("d-none");
+            $('.delete-form-8').removeClass("animation");
+            $('.member-info-8').removeClass("d-none");
+        })
+        // 8
+
+        $('.delete-9').click(function(){
+            $('.delete-form-9').removeClass("d-none");
+            $('.delete-form-9').addClass("animation");
+            $('.member-info-9').addClass("d-none");
+        });
+
+        $('.member-9').click(function(){
+            $('.delete-form-9').addClass("d-none");
+            $('.delete-form-9').removeClass("animation");
+            $('.member-info-9').removeClass("d-none");
+        })
+        // 9
+
+        $('.delete-10').click(function(){
+            $('.delete-form-10').removeClass("d-none");
+            $('.delete-form-10').addClass("animation");
+            $('.member-info-10').addClass("d-none");
+        });
+
+        $('.member-10').click(function(){
+            $('.delete-form-10').addClass("d-none");
+            $('.delete-form-10').removeClass("animation");
+            $('.member-info-10').removeClass("d-none");
+        })
+        // 10
+
+        $('.delete-11').click(function(){
+            $('.delete-form-11').removeClass("d-none");
+            $('.delete-form-11').addClass("animation");
+            $('.member-info-11').addClass("d-none");
+        });
+
+        $('.member-11').click(function(){
+            $('.delete-form-11').addClass("d-none");
+            $('.delete-form-11').removeClass("animation");
+            $('.member-info-11').removeClass("d-none");
+        })
+        // 11
+
+        $('.delete-12').click(function(){
+            $('.delete-form-12').removeClass("d-none");
+            $('.delete-form-12').addClass("animation");
+            $('.member-info-12').addClass("d-none");
+        });
+
+        $('.member-12').click(function(){
+            $('.delete-form-12').addClass("d-none");
+            $('.delete-form-12').removeClass("animation");
+            $('.member-info-12').removeClass("d-none");
+        })
+        // 12
+    });
+
+
+</script>
+
+
+</html>
